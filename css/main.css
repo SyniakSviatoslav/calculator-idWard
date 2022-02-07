@@ -1,15 +1,19 @@
-/* Mixins are going next */
+
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 body {
   margin: 0;
-  height: 100vh;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
 }
 
+.section-title{
+  font-size: 40px;
+  font-weight: bold;
+}
 
 
-/*# sourceMappingURL=main.css.map */
+
