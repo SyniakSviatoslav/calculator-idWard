@@ -15,129 +15,286 @@
 </head>
 
 <body>
+   <header>
+      <h1>Audience Addressability Toolbox </h1>
+      <div class="product-description">
+         <p>The Audience Addressability Toolbox helps advertisers and publishers assess the various Audience
+            Addressability Solutions on the
+            market based on their needs. Please share feedback at:
+         </p>
+      </div>
+
+   </header>
+
    <main>
+
+      <div class="section-title">
+         <p>Types of Solutions</p>
+      </div>
+      <div class="cards-container">
+
+         <div class="image-wrapper">
+
+            <div class="wrapper-card">
+               <img src='/images/contextual.png' class="image-card"></img>
+               <div class="info">
+
+                  <p>Contextual advertising is an automated process where a promotional message is matched to relevant
+                     digital content.
+                     The algorithms which underpin contextual advertising, select the advertisements based on keywords
+                     and other metadata included in the content. This is not an identity technology per se, but rather
+                     an identity-less alternative for programmatic targeting.</p>
+
+               </div>
+            </div>
+            <p>Contextual</p>
+         </div>
+
+         <div class="image-wrapper">
+
+            <div class="wrapper-card">
+               <img src='/images/first-party.png' class="image-card"></img>
+               <div class="info">
+
+                  <p>Unlike third-party data that is often available to many different companies, first-party data is
+                     unique to a publisher/advertiser. It's data that a
+                     publisher owns and collects with direct consent
+                     from consumers, so it is limited to the consumer actions within a single domain or a small group of
+                     domains owned by the same publisher.</p>
+
+               </div>
+            </div>
+            <p>First party</p>
+         </div>
+
+         <div class="image-wrapper">
+
+            <div class="wrapper-card">
+               <img src='/images/clean.png' class="image-card"></img>
+               <div class="info">
+
+                  <p>A data clean room is a piece of software that enables advertisers and brands to match user-level
+                     data without actually
+                     sharing any PII/raw data with one another. Major advertising platforms use data clean rooms to
+                     provide advertisers with matched data on the performance of their ads on t
+                     heir platforms. Alternative third-party vendors also look to be intermediaries to advertisers and
+                     publishers to match data and target across the wider network.</p>
+
+               </div>
+            </div>
+            <p>Clean Rooms</p>
+         </div>
+
+         <div class="image-wrapper">
+
+            <div class="wrapper-card">
+               <img src='/images/email.png' class="image-card"></img>
+               <div class="info">
+
+                  <p>Cohort-based advertising targets anonymised groups of people who share common interests and online
+                     browser behavior.
+                     Cohorting may take place with both known, personally identifiable information (PII)-based data
+                     assets, and anonymous data assets, like contextual signals found on web
+                     pages. Cohort-based advertising is able to identify the individual deterministically across
+                     domains, but applies an anonymisation layer to protect user privacy.</p>
+
+               </div>
+            </div>
+            <p>Hashed Emails</p>
+         </div>
+
+         <div class="image-wrapper">
+
+            <div class="wrapper-card">
+               <img src='/images/id-graphs.png' class="image-card"></img>
+               <div class="info">
+
+                  <p>The Universal ID is a user identifier created by an ad-tech company to provide a shared identity to
+                     identify the user across the
+                     programmatic ecosystem without the need to sync cookies. Unlike cookies that are based on
+                     probabilistic matching, most Universal IDs are created on the
+                     basis of deterministic matching. First-party data (CRM) and offline data can be used to create
+                     universal IDs,
+                     but the most popular signal used to create universal IDs are encrypted email addresses from logged
+                     in users..</p>
+
+               </div>
+            </div>
+            <p>ID Graphs</p>
+         </div>
+
+         <div class="image-wrapper">
+
+            <div class="wrapper-card">
+               <img src='/images/cohorts.png' class="image-card"></img>
+               <div class="info">
+
+                  <p>Cohort-based advertising targets anonymised groups of people who share common interests and online
+                     browser behavior.
+                     Cohorting may take place with both known, personally identifiable information (PII)-based data
+                     assets, and anonymous data assets, like contextual signals found on web
+                     pages. Cohort-based advertising is able to identify the individual deterministically across
+                     domains, but applies an anonymisation layer to protect user privacy.</p>
+
+               </div>
+            </div>
+            <p>Cohorts</p>
+         </div>
+
+
+
+
+
+      </div>
+
+      <div class="section-title">
+         <p>Assesing the Solutions</p>
+      </div>
+      <p>Weight: assign between 1 and 5 to each point in the Weight column to indicate how important a question is for
+         you/your company
+      </p>
+      <p>Rating: assign between 1 and 5 points in the Rating column to indicate your level of confidence in that the
+         solution will adequately answer that question
+      </p>
       <form id="signup" class="form">
          <h1>Sign Up</h1>
-         <div id="perfomance">
-            <p class="section-title">Perfomance</p>
-            <div class="form-field">
-               <p>Does the ID solution provide granular consumer data?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>Does the ID solution allow you to leverage cross-domain and cross-device data?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>How accurately can the ID solution attribute the data to the right user?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>Does the ID solution support retargeting?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>Does the ID solution support attribution / campaign measurement?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
-            </div>
-         </div>
-
          <div>
-            <p class="section-title">Easy of Use</p>
             <div class="form-field">
-               <p>How easily can the ID solution be tested?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>Is the solution well integrated in the advertising ecosystem?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>Does it provide a good customer experience?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>Is the commercial model clear and transparent?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>Is the solution flexible and customisable to your needs?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
-            </div>
-         </div>
 
-         <div>
-            <p class="section-title">Compliance</p>
-            <div class="form-field">
-               <p>Is the ID solution collecting personal data?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>Does the ID solution allow third parties to access personal data?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>How easily can user consent be proven?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>How easily can a user access, rectify and delete their personal data?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="Complianceeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
-            </div>
-            <div class="form-field">
-               <p>Is the ID solution combining personal data from multiple third-party sources?</p>
-               <label for="username">Weighting</label>
-               <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
-               <label for="username">Scoring</label>
-               <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
-            </div>
-         </div>
+               <p></p>
 
-         <div class="form-field">
-            <button type="submit" value="Sign Up" class="btn">Sign Up</button>
-         </div>
+               <div class="inputs">
+
+                  <label for="username">Weighting</label>
+                  <label for="username">Scoring</label>
+               </div>
+            </div>
+            <div id="perfomance">
+               <p class="section-title">Perfomance</p>
+
+               <div class="form-field">
+
+                  <p>Does the ID solution provide granular consumer data?</p>
+
+                  <div class="inputs">
+
+                     <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+                  </div>
+
+               </div>
+               <div class="form-field">
+                  <p>Does the ID solution allow you to leverage cross-domain and cross-device data?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>How accurately can the ID solution attribute the data to the right user?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>Does the ID solution support retargeting?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>Does the ID solution support attribution / campaign measurement?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+               </div>
+            </div>
+
+            <div>
+               <p class="section-title">Easy of Use</p>
+               <div class="form-field">
+                  <p>How easily can the ID solution be tested?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>Is the solution well integrated in the advertising ecosystem?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>Does it provide a good customer experience?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>Is the commercial model clear and transparent?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>Is the solution flexible and customisable to your needs?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+               </div>
+            </div>
+
+            <div>
+               <p class="section-title">Compliance</p>
+               <div class="form-field">
+                  <p>Is the ID solution collecting personal data?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>Does the ID solution allow third parties to access personal data?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>How easily can user consent be proven?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>How easily can a user access, rectify and delete their personal data?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="Complianceeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+               </div>
+               <div class="form-field">
+                  <p>Is the ID solution combining personal data from multiple third-party sources?</p>
+                  <label for="username">Weighting</label>
+                  <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
+                  <label for="username">Scoring</label>
+                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+               </div>
+            </div>
+
+            <div class="form-field">
+               <button type="submit" value="Sign Up" class="btn">Sign Up</button>
+            </div>
       </form>
    </main>
 
