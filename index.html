@@ -28,7 +28,7 @@
 
    <main>
 
-      <div class="section-title">
+      <div class="solutions-title">
          <p>Types of Solutions</p>
       </div>
       <div class="cards-container">
@@ -147,153 +147,198 @@
 
       </div>
 
-      <div class="section-title">
+      <div class="solutions-title">
          <p>Assesing the Solutions</p>
       </div>
-      <p>Weight: assign between 1 and 5 to each point in the Weight column to indicate how important a question is for
+      <p><span>Weight:</span> assign between <span>1</span> and <span>5</span> to each point in the Weight column to indicate how important a question is for
          you/your company
       </p>
-      <p>Rating: assign between 1 and 5 points in the Rating column to indicate your level of confidence in that the
+      <p><span>Rating:</span> assign between <span>1</span> and  <span>5</span> points in the Rating column to indicate your level of confidence in that the
          solution will adequately answer that question
       </p>
       <form id="signup" class="form">
-         <h1>Sign Up</h1>
+        
          <div>
-            <div class="form-field">
+            
+            <div class="section-wrapper">
+               <div class="section-container">
+                  <div class="form-field">
 
-               <p></p>
+                     <p class="section-title">Marketing Perfomance Score</p>
+      
+      
+                     <div class="inputs">
+                        <label for="username">Weight</label>
+                        <label for="username">Rating</label>
+                     </div>
+                  </div>
+                  
 
-               <div class="inputs">
+                  <div class="form-field">
 
-                  <label for="username">Weighting</label>
-                  <label for="username">Scoring</label>
-               </div>
-            </div>
-            <div id="perfomance">
-               <p class="section-title">Perfomance</p>
+                     <p>Does the ID solution provide granular consumer data?</p>
 
-               <div class="form-field">
 
-                  <p>Does the ID solution provide granular consumer data?</p>
+                     <div class="inputs">
+                        <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
 
-                  <div class="inputs">
-
-                     <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-
-                     <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+                        <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+                     </div>
                   </div>
 
+                  <div class="form-field">
+                     <p>Does the ID solution allow you to leverage cross-domain and cross-device data?</p>
+                     <div class="inputs">
+
+                        <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
+
+                        <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+                     </div>
+                  </div>
+                  <div class="form-field">
+                     <p>How accurately can the ID solution attribute the data to the right user?</p>
+
+                     <div class="inputs">
+
+                        <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
+
+                        <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+                     </div>
+                  </div>
+                  <div class="form-field">
+                     <p>Does the ID solution support retargeting?</p>
+
+                     <div class="inputs">
+
+                        <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
+
+                        <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+                     </div>
+                  </div>
+                  <div class="form-field">
+                     <p>Does the ID solution support attribution / campaign measurement?</p>
+
+                     <div class="inputs">
+
+                        <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
+
+                        <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
+                     </div>
+                  </div>
                </div>
-               <div class="form-field">
-                  <p>Does the ID solution allow you to leverage cross-domain and cross-device data?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
-               </div>
-               <div class="form-field">
-                  <p>How accurately can the ID solution attribute the data to the right user?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
-               </div>
-               <div class="form-field">
-                  <p>Does the ID solution support retargeting?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
-               </div>
-               <div class="form-field">
-                  <p>Does the ID solution support attribution / campaign measurement?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="perfomanceWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="perfomanceScore" autocomplete="off" min="1" max="5">
-               </div>
+               <div id="perfomanceFinalScore"> Score </div>
             </div>
 
-            <div>
+            <div class="section-wrapper">
+            <div class="section-container">
                <p class="section-title">Easy of Use</p>
                <div class="form-field">
                   <p>How easily can the ID solution be tested?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+                  <div class="inputs">
+
+                     <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
                <div class="form-field">
                   <p>Is the solution well integrated in the advertising ecosystem?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+                  <div class="inputs">
+
+                     <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
                <div class="form-field">
                   <p>Does it provide a good customer experience?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+
+                  <div class="inputs">
+
+                     <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
                <div class="form-field">
                   <p>Is the commercial model clear and transparent?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+
+                  <div class="inputs">
+
+                     <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
                <div class="form-field">
                   <p>Is the solution flexible and customisable to your needs?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+                  <div class="inputs">
+
+                     <input type="number" class="EasyOfUseWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="EasyOfUseScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
             </div>
+            <div id="easyFinalScore">Score</div>
+            </div>
 
-            <div>
+            <div class="section-wrapper">
+            <div class="section-container">
                <p class="section-title">Compliance</p>
                <div class="form-field">
                   <p>Is the ID solution collecting personal data?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+                  <div class="inputs">
+
+                     <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
                <div class="form-field">
                   <p>Does the ID solution allow third parties to access personal data?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+                  <div class="inputs">
+
+                     <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
                <div class="form-field">
                   <p>How easily can user consent be proven?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+
+                  <div class="inputs">
+
+                     <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
                <div class="form-field">
                   <p>How easily can a user access, rectify and delete their personal data?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="Complianceeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+                  <div class="inputs">
+
+                     <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
                <div class="form-field">
                   <p>Is the ID solution combining personal data from multiple third-party sources?</p>
-                  <label for="username">Weighting</label>
-                  <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
-                  <label for="username">Scoring</label>
-                  <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+                  <div class="inputs">
+
+                     <input type="number" class="ComplianceWeight" autocomplete="off" min="1" max="5">
+
+                     <input type="number" class="ComplianceScore" autocomplete="off" min="1" max="5">
+                  </div>
                </div>
+            </div>
+            <div id="complianceFinalScore">Score</div>
             </div>
 
             <div class="form-field">
                <button type="submit" value="Sign Up" class="btn">Sign Up</button>
+               <p id="final">Final Score</p>
             </div>
       </form>
    </main>

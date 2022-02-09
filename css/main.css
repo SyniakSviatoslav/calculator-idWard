@@ -56,9 +56,11 @@ header{
   width: 100%;
 }
 .section-title{
+  width: 50%;
   justify-content: left;
   font-size: 20px;
   font-weight: bold;
+  color: rgb(12 113 195);
 }
 .cards-container{
   padding-bottom: 50px;
@@ -98,6 +100,7 @@ header{
 .image-wrapper p {
   font-size: 15px;
   font-weight: bold;
+  
 }
 
 
@@ -193,6 +196,7 @@ header{
 
 
 .form{
+  
   width: 100%;
 }
 
@@ -203,12 +207,45 @@ header{
 }
 
 .form-field p{
+  
   max-width: 40%;
   width: 40%;
+  
 }
 
 .inputs{
   display: flex;
+  min-width: 150px;
+  gap: 30px;
+}
+
+
+label, input{
+  min-width: 60px;
+  max-width: 60px;
+  height: 20px;
+  text-align: center; 
+}
+
+
+.section-wrapper{
+  display: flex;
   
 }
 
+.section-container{
+  width: 80%;
+  
+  
+}
+
+.solutions-title p{
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(12 113 195);
+}
+
+span{
+  color: #0C71C3;
+  font-weight: bold;
+}
